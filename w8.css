@@ -1,0 +1,58 @@
+body {
+  background: repeating-linear-gradient(45deg, #ffaaaa, #ffaaaa 20px, #aaffaa 20px, #aaffaa 40px);
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #222;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 3.2em;
+  color: #111;
+  background: yellow;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border: 5px double red;
+  text-shadow: 1px 1px 2px white;
+}
+
+p {
+  font-size: 1.5em;
+  background: #fff700;
+  color: #000;
+  padding: 10px 20px;
+  border: 3px dotted green;
+  display: inline-block;
+}
+
+.signin-btn {
+  display: inline-block;
+  margin-top: 40px;
+  background-color: #ffff00;
+  color: #000;
+  border: 5px dashed red;
+  padding: 20px 40px;
+  font-size: 1.8em;
+  font-family: Impact, fantasy;
+  border-radius: 0;
+  box-shadow: 0 0 25px #000, 5px 5px 15px #f0f;
+  transition: none;
+}
+
+.signin-btn:hover {
+  transform: rotate(5deg);
+  background-color: #ff69b4;
+  color: white;
+}
+
+footer {
+  margin-top: 60px;
+  font-size: 1.3em;
+  background: #0ff1ce;
+  color: #ff00ea;
+  border-top: 3px solid red;
+  padding: 12px;
+}
